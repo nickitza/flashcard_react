@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, } from "semantic-ui-react"; 
+import { Container, Header, Icon} from "semantic-ui-react"; 
 import Flashcards from './Flashcards';
 import FlashcardForm from './FlashcardForm'
 
@@ -36,7 +36,11 @@ class App extends React.Component {
   render(){
     return (
     <Container style={{ paddingTop: "2em" }}>
-      <Header> Flashcards </Header>
+      <Header as='h2' icon>
+        <Icon name='react blue' />
+        Flashcards
+      <Header.Subheader>with React</Header.Subheader>
+  </Header>
       <hr />
       <Flashcards flashcards={ this.state.flashcards} remove={this.removeFlashcard}  />
       <br />

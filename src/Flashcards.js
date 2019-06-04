@@ -1,13 +1,12 @@
 import React from 'react'
-import {Button, Card} from 'semantic-ui-react'
-import Flashcard from 'Flashcard.js';
+import { Card } from 'semantic-ui-react'
+import Flashcard from './Flashcard.js';
 
-const Flashcards = ( {flashcards} ) => (
+const Flashcards = ( {flashcards, remove} ) => (
   <Card.Group>
     {
       flashcards.map( flashcard => (
-        <Flashcard
-        key={flashcard.id} {...flashcard} />
+        <Flashcard key={flashcard.id} {...flashcard} remove={remove} />
       ))
     }
   </Card.Group>

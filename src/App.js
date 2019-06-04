@@ -1,6 +1,10 @@
 import React from 'react';
 import { Container, Header, } from "semantic-ui-react"; 
 import Flashcards from './Flashcards';
+import FlashcardForm from './FlashcardForm'
+
+
+
 class App extends React.Component {
 
   state = {
@@ -12,11 +16,31 @@ class App extends React.Component {
     ]
   }
 
+  getId = () => {
+    return Math.floor((1 + Math.random()) * 10000);
+  };
+
+  addFlashcard = (flashcardData) => {
+     let flashcard =  { id: this.getId(), ...flashcardData };
+     this.setState({ flashcards: [flashcard, ...this.state.flashcards ]})
+  }
+
+  removeFlashcard = (id) => {
+    const flashcards = this.state.flashcards.filter( flashcard => {
+      if (flashcard.id !== id)
+      return flashcard
+    })
+    this.setState({flashcards: [...flashcards] })
+  }
+
   render(){
     return (
     <Container style={{ paddingTop: "2em" }}>
       <Header> Flashcards </Header>
-      <Flashcards flashcards={this.state.flashcards} />
+      <hr />
+      <Flashcards flashcards={ this.state.flashcards} remove={this.removeFlashcard}  />
+      <br />
+      <FlashcardForm add={ this.addFlashcard }/>
     </Container>
     );
   }

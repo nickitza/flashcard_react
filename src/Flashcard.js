@@ -4,7 +4,6 @@ import { Card } from 'semantic-ui-react';
 class Flashcard extends React.Component {
   state = { flipped: false }
   render(){
-    debugger
     return (
       <Card>
         <Card.Content>

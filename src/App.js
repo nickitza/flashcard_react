@@ -9,10 +9,10 @@ class App extends React.Component {
 
   state = {
     flashcards: [
-      {id: 1, front: "brolly", back: "umbrella",},
-      {id: 2, front: "chuffed", back: "happy",},
-      {id: 3, front: "courgette", back: "zucchini",},
-      {id: 4, front: "crisps", back: "chips",}
+      {id: 1, front: "REST", back: "Representational State Transfer. A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.",},
+      {id: 2, front: "API", back: "Application Programming Interface. In computer programming, an application programming interface is a set of subroutine definitions, communication protocols, and tools for building software.",},
+      {id: 3, front: "DOM", back: "Document Object Model",},
+      {id: 4, front: "HTML", back: "Hypertext Markup Language",}
     ]
   }
 
@@ -37,7 +37,7 @@ class App extends React.Component {
     return (
     <Container style={{ paddingTop: "2em" }}>
       <Header as='h2' icon>
-        <Icon name='react blue' />
+        <Icon name='blue react' />
         Flashcards
       <Header.Subheader>with React</Header.Subheader>
   </Header>

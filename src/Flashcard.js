@@ -8,7 +8,7 @@ class Flashcard extends React.Component {
   render(){
     // debugger
     return (
-      <Card color='violet'>
+      <Card color='blue'>
         <Card.Content>
     {this.state.flipped ? <Card.Description>{this.props.back}</Card.Description> : <Card.Header>{this.props.front}</Card.Header>}
         </Card.Content>

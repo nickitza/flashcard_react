@@ -5,6 +5,7 @@ class Flashcard extends React.Component {
   state = { flipped: false }
 
   toggleFlashcard = () => this.setState({ flipped: !this.state.flipped })
+  
   render(){
     // debugger
     return (

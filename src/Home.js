@@ -1,0 +1,17 @@
+import React from 'react';
+import {Container, Header } from 'semantic-ui-react';
+
+const Home = () => (
+  <Container>
+    <Header> Home Page</Header>
+    <p>The fat cat sat on the mat bat away with paws
+Cat ipsum dolor sit amet, bring your owner a dead bird but love me! so leave hair everywhere. Stare out the window i shall purr myself to sleep. Curl into a furry donut play time, but claw your carpet in places everyone can see - why hide my amazing artistic clawing skills?. Scratch the box instead of drinking water from the cat bowl, make sure to steal water from the toilet claw drapes, so attack feet, for mrow toilet paper attack claws fluff everywhere meow miao french ciao litterbox. Chase after silly colored fish toys around the house. Lick butt and make a weird face. Howl on top of tall thing. Make it to the carpet before i vomit mmmmmm try to hold own back foot to clean it but foot reflexively kicks you in face, go into a rage and bite own foot, hard lick the plastic bag yet find box a little too small and curl up with fur hanging out do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter. Destroy couch inspect anything brought into the house, for i just saw other cats inside the house and nobody ask me before using my litter box why use post when this sofa is here make meme, make cute face meeeeouw. Mrow shred all toilet paper and spread around the house or stare at guinea pigs eat a plant, kill a hand, yet be superior. Pet me pet me don't pet me spill litter box, scratch at owner, destroy all furniture, especially couch, yet jump around on couch, meow constantly until given food, intrigued by the shower. </p>
+
+<p>Kitty power. Run in circles leave hair everywhere lick sellotape but i bet my nine lives on you-oooo-ooo-hooo lick the curtain just to be annoying and bite the neighbor's bratty kid making sure that fluff gets into the owner's eyes. Stare at imaginary bug warm up laptop with butt lick butt fart rainbows until owner yells pee in litter box hiss at cats peer out window, chatter at birds, lure them to mouth but litter kitter kitty litty little kitten big roar roar feed me or friends are not food or run off table persian cat jump eat fish yet making sure that fluff gets into the owner's eyes. Gate keepers of hell leave hair everywhere. </p>
+
+<p>Rub whiskers on bare skin act innocent dont wait for the storm to pass, dance in the rain. Stand in doorway, unwilling to chose whether to stay in or go out. Poop on floor and watch human clean up pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now, eat the rubberband. Climb leg run up and down stairs give me some of your food give me some of your food give me some of your food meh, i don't want it catto munch salmono. I love cuddles if it smells like fish eat as much as you wish tuxedo cats always looking dapper kitty power so inspect anything brought into the house, but cats are cute. Love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater) lay on arms while you're using the keyboard. </p>
+
+  </Container>
+)
+
+export default Home;
